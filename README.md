@@ -25,13 +25,17 @@ TerminalAI is an intelligent terminal copilot that enhances your command-line ex
 3. **Set your Groq API key:**
    - Obtain a Groq API key from [Groq](https://groq.com/).
    - Set the environment variable in your shell:
-     - **Linux/macOS:**
+     - **Linux/macOS (bash/zsh):**
        ```bash
        export GROQ_API_KEY=your_api_key_here
        ```
      - **Windows (PowerShell):**
        ```powershell
        $env:GROQ_API_KEY="your_api_key_here"
+       ```
+     - **Windows (Command Prompt/cmd.exe):**
+       ```cmd
+       set GROQ_API_KEY=your_api_key_here
        ```
 
 ## Usage
